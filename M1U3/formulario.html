@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Mi formulario</h1>
+    <h2>Completa con tus datos el siguiente formulario</h2>
+    <h4>Al finalizar, apretar el boton de "Enviar" para que tus datos sean enviados.</h4>
+    <form action="" method="">
+        <p>
+            <label for="nom">Nombre</label>
+            <input type="text" name="Nombre" placeholder="nombre">
+        </p>
+    
+        <p>
+            <label for="nom">Apellido</label>
+            <input type="text" name="Apellido" placeholder="apellido">
+        </p>
+
+        <p>
+            <label for="edad">Edad</label>
+            <input type="number" name="Edad" placeholder="edad">
+        </p>
+
+        <label for="sexo">Sexo</label>
+        <select>
+            <option value="femenino">Femenino</option>
+            <option value="masculino">Masculino</option>
+            <option value="nobinario">No binario</option>
+        </select>
+
+        <p>
+            <label for="num">Telefono</label>
+            <input type="number" name="Telefono" placeholder="telefono">
+        </p>
+
+        <p>
+            <label for="email">Email</label>
+            <input type="email" name="Email" placeholder="email">
+        </p>
+
+        <label>Te ha interesado el perfil anterior?</label>
+        <ul>
+            <li>
+                <input type="checkbox" value="si" id="si">
+                <label for="si">Si</label>
+            </li>
+
+            <li>
+                <input type="checkbox" value="no" id="no">
+                <label for="no">No</label>
+            </li>
+        </ul>
+
+        <label>Deja aqui abajo un comentario que quieras agregar</label>
+        <p>
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comentarios"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+
+    </form>
+
+</body>
+</html>
