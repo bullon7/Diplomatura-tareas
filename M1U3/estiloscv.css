@@ -1,0 +1,31 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #136A84;
+    color: #FBE5EF;
+    text-align: center;
+}
+
+img {
+    width: 250px;
+    border-color: #136A84;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+body {
+    background-color: #DEBFCF;
+}
+
+h3 {
+    text-decoration-line: underline;
+}
+
+div {
+    background-color: #8097AB;
+    margin-right: 1000px;
+}
+
+.div2 {
+    background-color: #8097AB;
+    margin-right: 850px
+}
