@@ -29,3 +29,21 @@ div {
     background-color: #8097AB;
     margin-right: 850px
 }
+
+.cosaslindas {
+    color: #136A84;
+}
+
+.dormir {
+    background-color: #8097AB;
+}
+
+h2 {
+    text-decoration-line: underline;
+}
+
+.divformulario {
+    text-decoration-line: underline;
+    width:auto;
+    border-radius: 20px;
+}
