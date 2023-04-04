@@ -7,13 +7,15 @@ h1 {
 
 img {
     width: 250px;
-    border-color: #136A84;
-    border-style: solid;
     border-radius: 20px;
+    box-shadow: 21px 17px 17px 4px rgba(243,247,114,0.91);
+    -webkit-box-shadow: 21px 17px 17px 4px rgba(243,247,114,0.91);
+    -moz-box-shadow: 21px 17px 17px 4px rgba(243, 247, 114, 0.91);
 }
 
 body {
-    background-color: #DEBFCF;
+    background: rgb(240,53,173);
+    background: radial-gradient(circle, rgba(240,53,173,1) 23%, rgba(255,68,52,1) 89%);
 }
 
 h3 {
@@ -23,11 +25,12 @@ h3 {
 div {
     background-color: #8097AB;
     margin-right: 1000px;
+    box-shadow: 10px 10px 10px rgba(243,247,114,0.91);
 }
 
 .div2 {
     background-color: #8097AB;
-    margin-right: 850px
+    margin-right: 850px;
 }
 
 .cosaslindas {
@@ -46,4 +49,14 @@ h2 {
     text-decoration-line: underline;
     width:auto;
     border-radius: 20px;
+    padding: 5px;
+}
+
+.sobremi {
+    background-color: #8097AB;
+    margin-right: 100px;
+    column-count: 3;
+    column-gap: 10px;
+    padding: 10px;
+    font-family: 'Lora', serif;
 }
