@@ -22,7 +22,9 @@ font-family: 'Open Sans', sans-serif;
     color: #14827b;
     background-color: white;
     height: 37px;
-}  
+}  */
+
+/* Inicio index */
 
 footer {
     background-color: beige;
@@ -31,15 +33,14 @@ footer {
     text-align: center;
     padding: 5px 0;
     margin-top: 20px;
+    font-size: 13px;
 }
-
-*/
 
 
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 25px;
     background-color: white;
 }
 
@@ -101,7 +102,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color:#574079;
+    color: #574079;
     text-decoration: none;
     padding: 3px 6px;
     display: block;
@@ -120,4 +121,69 @@ nav ul li a.activo {
 .holder {
     max-width: 960px;
     margin: 0 auto;
+}
+
+main img {
+    margin-top: -20px;
+}
+
+main div p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+h2 {
+    color: #14827b;
+    font-weight: 600;
+}
+
+main div.columnas h3 {
+    color: #14827b;
+}
+
+main div.columnas div {
+    width: 25%;
+    padding-left: 50px;
+}
+
+main div.columnas img {
+    width: 500px;
+    padding-right: 150px;
+    padding-top: 40px;
+}
+
+main div.columnas {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Fin del index */
+
+/* Inicio sobre mi  */
+
+.soy {
+    border: 1px solid #9d89b9;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.soycontenido {
+    width: 80%;
+}
+
+div.soy img {
+    width: 150px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+main div.soycontenido h3 {
+    color:#574079;
+}
+
+.soy:nth-child(even) {
+    flex-direction: row-reverse;
 }
