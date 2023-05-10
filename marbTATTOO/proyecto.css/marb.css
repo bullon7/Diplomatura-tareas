@@ -274,6 +274,7 @@ main ul li {
 .formulario textarea {
     resize: none;
     height: 50px;
+    width: 138px;
 }
 
 .formulario input[type="submit"] {
