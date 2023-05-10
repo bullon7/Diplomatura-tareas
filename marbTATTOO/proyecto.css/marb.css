@@ -2,9 +2,9 @@
 font-family: 'Open Sans', sans-serif; 
 
 #7ed957 verde
-#14827b celeste
+#14827b celeste*/
 
-.loginbtn {
+/* .boton {
     margin-right: 10px;
     border-radius: 30px;
     border-style: solid;
@@ -14,20 +14,16 @@ font-family: 'Open Sans', sans-serif;
     height: 37px;
 }
 
-.signupbtn {
-    margin-right: 10px;
-    border-radius: 30px;
-    border-style: solid;
-    border-color: #14827b;
-    color: #14827b;
-    background-color: white;
-    height: 37px;
-}  */
+.boton:hover {
+    color: red;
+    border: 1px solid blue;
+} */
+
 
 /* Inicio index */
 
 footer {
-    background-color: beige;
+    background-color: #e1e1e1;
     clear: both;
     color: #333;
     text-align: center;
@@ -137,8 +133,8 @@ h2 {
     font-weight: 600;
 }
 
-main div.columnas h3 {
-    color: #14827b;
+h3 {
+    color: #574079;
 }
 
 main div.columnas div {
@@ -186,4 +182,112 @@ main div.soycontenido h3 {
 
 .soy:nth-child(even) {
     flex-direction: row-reverse;
+}
+
+/* Fin de sobre mi  */
+
+/* Inicio de trabajos */
+
+.trabajos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.trabajos img {
+    width: 15%;
+    border: 2px solid #574079;
+    padding: 0.5em;
+    margin-top: 1%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+}
+
+.titulotrabajos h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulotrabajos p {
+    text-align: center;
+}
+
+/* Fin de trabajos */
+
+/* Inicio de informacion */
+
+main ul li {
+    list-style: none;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px; 
+}
+
+.cuidados, .nadiedice {
+    border-bottom: 2px solid #574079;
+}
+
+.cuidados {
+    margin-top: 30px;
+}
+
+/* Fin de informacion  */
+
+/* Inicio de contactanos */
+
+.contacto {
+    display: flex;
+}
+
+.contacto div {
+    width: 100%;
+}
+
+.datos ul li {
+    font-size: 13px;
+}
+
+.datos h3 {
+    margin-left: 20px;
+}
+
+.formulario p {
+    display: flex;
+}
+
+.formulario p label {
+    min-width: 90px;
+}
+
+.formulario p input, .formulario p textarea {
+    border-radius: 4px;
+    border: 1px solid #574079;
+    font-size: 12px;
+    padding: 6px 10px;
+}
+
+.formulario {
+    margin-left: 100px;
+}
+
+.formulario textarea {
+    resize: none;
+    height: 50px;
+}
+
+.formulario input[type="submit"] {
+    background-color: #9d89b9;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+    color: #36254e;
+    font-size: 15px;
+    padding: 6px 10px;
+    width: auto;
+    position: relative;
+    left: 187px;
+    cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #bcaad6;
 }
