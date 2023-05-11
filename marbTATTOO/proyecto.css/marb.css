@@ -84,6 +84,8 @@ header h1 {
 nav {
     background-color: #c2ade0;
     margin-bottom: 20px;
+    position: sticky;
+    top: 0px;
 }
 
 nav ul {
