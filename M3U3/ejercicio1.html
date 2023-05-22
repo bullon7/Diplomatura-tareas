@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        mes = parseInt(prompt('Ingrese la distancia que desea recorrer para encontrar el medio de transporte mas le conveniente', ''))
+
+        if (mes >= 0 && mes <= 1000) {
+            document.write('El mejor medio de transporte es a pie');
+        } else if (mes > 1000 && mes <= 10000) {
+            document.write('El mejor medio de trasporte es la bicicleta');
+        } else if (mes > 10000 && mes <= 30000) {
+            document.write('El mejor medio de transporte es el colectivo');
+        } else if (mes > 30000 && mes <= 100000) {
+            document.write('El mejor medio de transporte es el auto');
+        } else {
+            document.write('El mejor medio de transporte es el avion');
+        }
+    </script>
+</body>
+</html>
