@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="ejercicio1.css">
+</head>
+<body id="fondo">
+    <button id="cambiarColorRojo" class="boton1"></button>
+    <button id="cambiarColorAzul" class="boton2"></button>
+    <button id="cambiarColorVerde" class="boton3"></button>
+
+    <script>
+        window.addEventListener('load', function() {
+            document.getElementById('cambiarColorRojo').addEventListener('click', function() {
+                const fondo = document.getElementById('fondo')
+                fondo.style.backgroundColor = '#ff0000'
+            })
+
+            document.getElementById('cambiarColorAzul').addEventListener('click', function() {
+                const fondo = document.getElementById('fondo')
+                fondo.style.backgroundColor = '#0000ff'
+            })
+
+            document.getElementById('cambiarColorVerde').addEventListener('click', function() {
+                const fondo = document.getElementById('fondo')
+                fondo.style.backgroundColor = '#008000'
+            })
+        })
+    </script>
+</html>

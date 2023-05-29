@@ -1,0 +1,16 @@
+.boton1 {
+    background-color: #ff0000;
+}
+
+.boton2 {
+    background-color: #0000ff;
+}
+
+.boton3 {
+    background-color: #008000;
+}
+
+.boton1, .boton2, .boton3 {
+    padding: 60px;
+    border: none;
+}
