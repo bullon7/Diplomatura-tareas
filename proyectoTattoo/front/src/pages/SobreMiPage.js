@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/pages/sobremi.css';
 
 const SobreMiPage = (props) => {
     return (

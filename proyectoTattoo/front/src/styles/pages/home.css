@@ -1,0 +1,22 @@
+main img {
+    margin-top: -20px;
+}
+
+main div p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+main div.columnas {
+    display: flex;
+}
+
+.columnas div{
+    width: 50%;
+    padding-left: 60px;
+}
+
+.homemapa img {
+    width: 75%;
+    padding-top: 40px;
+}

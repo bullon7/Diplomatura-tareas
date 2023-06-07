@@ -1,4 +1,58 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Open+Sans:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  background-color: white;
+}
+
+.holder {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #14827b;
+  font-weight: 600;
+}
+
+h3 {
+  color: #574079;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +89,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

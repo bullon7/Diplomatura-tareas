@@ -1,0 +1,26 @@
+.soy {
+    border: 1px solid #9d89b9;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.soycontenido {
+    width: 80%;
+}
+
+div.soy img {
+    width: 150px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+main div.soycontenido h3 {
+    color:#574079;
+}
+
+.soy:nth-child(even) {
+    flex-direction: row-reverse;
+}

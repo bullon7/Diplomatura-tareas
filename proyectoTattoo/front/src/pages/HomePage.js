@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import '../styles/pages/home.css';
+import { BsFillGeoAltFill } from "react-icons/bs";
+import { BsFillTelephoneFill } from "react-icons/bs";
 
 const HomePage = (props) => {
     return (
@@ -30,11 +33,11 @@ const HomePage = (props) => {
             <div className="columnas">
                 <div className="homesecciones">
                     <div className="holder">
-                        <h3><i className="fa-solid fa-location-dot"></i> Ubicacion</h3>
+                        <h3><BsFillGeoAltFill /> Ubicacion</h3>
                         <p><b>Marb</b> todavia esta tatuando en su mini estudio: Juramento y Avalos, Villa Urquiza, CABA
                         </p>
                         <br />
-                        <h3><i className="fa-solid fa-phone"></i> Contacto</h3>
+                        <h3><BsFillTelephoneFill /> Contacto</h3>
                         <p>Para contactarme podes completar con tus datos en la siguiente <Link to="/contactanos">seccion</Link>.
                         </p>
                     </div>

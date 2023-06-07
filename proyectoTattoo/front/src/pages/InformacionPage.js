@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/pages/informacion.css';
 
 const InformacionPage = (props) => {
     return (
