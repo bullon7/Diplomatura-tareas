@@ -42,11 +42,11 @@ const HomePage = (props) => {
                         </p>
                     </div>
                 </div>
-                <div className="homemapa">
-                    <img src="img/MarbTattoo.png" />
+                <div className="mapa"> 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.018108264544!2d-58.48605832477291!3d-34.578408356161134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6685b8e8dbb%3A0x8a4b7a7d0888195a!2sJuramento%205147%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1689113272436!5m2!1ses!2sar" style={{ width: 400, height: 300, border: 0 }}></iframe>
                 </div>
-            </div>
-        </main>
+        </div>
+        </main >
 
     );
 }
