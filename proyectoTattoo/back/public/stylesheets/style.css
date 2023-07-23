@@ -7,19 +7,19 @@ body {
 
 header {
   background-color: beige;
-  height: 140px;
+  height: 115px;
 }
 
 header h1 {
   color: #14827b;
   font-size: 25px;
   font-weight: 300;
-  display: inline-block;
   position: relative;
-  bottom: 45px;
-  right: 20px;
   text-align: center;
+  padding-top: 27px;
+  padding-right: 1180px;
 }
+
 
 footer {
   background-color: #e1e1e1;
@@ -50,4 +50,58 @@ h2 {
 
 h3 {
   color: #574079;
+}
+
+.containerlogin {
+  margin-left: 500px;
+  margin-top: 20px;
+  padding: 10px;
+  width: 375px;
+  box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+}
+
+.containerlogin .row {
+  width: 450px;
+  margin-top: -10px;
+}
+
+.containerlogin img {
+  margin-left: 85px;
+  margin-top: -40px;
+  width: 185px;
+}
+
+.containerlogin button {
+  background-color: #574079;
+  border: none;
+  margin-left: 265px;
+}
+
+.containerlogin button:hover {
+  background-color: #9c80c7;
+}
+
+.alertincorrecto {
+  font-size: 13px;
+  margin-top: -30px;
+  padding-left: 20px;
+  color: red;
+  width: 250px;
+  height: 30px;
+}
+
+.containernovedades p {
+  margin-top: 40px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color:#574079;
+}
+
+.containernovedades a {
+  margin-left: 1133px;
+  margin-top: -10px;
+  margin-bottom: 20px;
 }
