@@ -7,7 +7,7 @@ import Footer from "./components/layout/Footer";
 
 import HomePage from "./pages/HomePage";
 import SobreMiPage from "./pages/SobreMiPage";
-import TrabajosPage from "./pages/TrabajosPage";
+import PromocionesPage from "./pages/PromocionesPage";
 import InformacionPage from "./pages/InformacionPage";
 import ContactanosPage from "./pages/ContactanosPage";
 
@@ -21,7 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="sobremi" element={<SobreMiPage />} />
-        <Route path="trabajos" element={<TrabajosPage />} />
+        <Route path="promociones" element={<PromocionesPage />} />
         <Route path="informacion" element={<InformacionPage />} />
         <Route path="contactanos" element={<ContactanosPage />} />
       </Routes>

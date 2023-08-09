@@ -4,20 +4,6 @@ font-family: 'Open Sans', sans-serif;
 #7ed957 verde
 #14827b celeste*/
 
-/* .boton {
-    margin-right: 10px;
-    border-radius: 30px;
-    border-style: solid;
-    border-color: #14827b;
-    color: #14827b;
-    background-color: white;
-    height: 37px;
-}
-
-.boton:hover {
-    color: red;
-    border: 1px solid blue;
-} */
 
 
 /* Inicio index */
@@ -60,26 +46,6 @@ header h1 {
     margin: -20px;
 }
 
-
-.barra {
-    margin-right: 10px;
-}
-
-.registro {
-    display: inline-block;
-    position: relative;
-    right: -950px;
-    bottom: 140px;
-
-}
-
-.botones {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    bottom: 115px;
-    left: 180px;
-}
 
 nav {
     background-color: #c2ade0;
