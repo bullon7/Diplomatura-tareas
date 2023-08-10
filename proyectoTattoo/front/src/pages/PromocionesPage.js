@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from 'axios';
 import PromocionItem from "../components/promociones/PromocionItem";
+import '../styles/pages/promociones.css';
 
 const PromocionesPage = (props) => {
     const [loading, setLoading] = useState(false);
@@ -18,7 +19,7 @@ const PromocionesPage = (props) => {
 
     return (
         <section className="holder">
-            <h2>Promociones</h2>
+            <h2 className="promoprincipal">Promociones</h2>
             {
                 loading ? (
                     <p>Cargando...</p>

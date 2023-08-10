@@ -1,0 +1,28 @@
+.promociones h1{
+    color: #574079;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.promociones h2 {
+    font-size: 15px;
+    color: #574079;
+    font-style: italic;
+}
+
+.promociones {
+    display: inline-block;
+    justify-content: center;
+}
+
+.contenidopromo {
+    display: flex;
+    font-weight: 300;
+    width: 80%;
+}
+
+.promociones img {
+    display: flex;
+    margin-left: -150px;
+    padding-bottom: 10px;
+}
